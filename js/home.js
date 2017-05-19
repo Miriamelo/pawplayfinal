@@ -20,8 +20,8 @@ var hrank = document.getElementById("hrank");
 var hquest = document.getElementById("hquest");
     hquest.src = "img/hquest.svg";
 
-var hset = document.getElementById("hset");
-    hset.src = "img/hset.svg";
+/*var hset = document.getElementById("hset");
+    hset.src = "img/hset.svg";*/
 
 var htiger = document.getElementById("htiger");
     htiger.src = "img/tiger1.svg";
