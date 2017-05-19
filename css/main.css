@@ -1,0 +1,679 @@
+#nimg {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+
+
+
+
+/* Home Page Mobile */
+
+
+#hbody {
+    background: url(../img/skybg.svg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    }
+    
+#hground {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    left: 0px;
+    }
+    
+#hlogo {
+    width: 85%;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#hplay{
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+/*#hlogin{
+     height: 10%;
+    position: absolute;
+    top: 57%;
+    left: 30%;
+}
+*/
+#hrank{
+     height: 10%;
+    position: absolute;
+    top: 57%;
+    left: 30%;
+}
+
+#hquest{
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#hset{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#htiger{
+    width: 150px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#hrhino{
+    width: 75px;
+    position: fixed;
+    bottom: 90px;
+    left: 5px;
+}
+
+#happle {
+    width: 40px;
+    position: fixed;
+    bottom: 80px;
+    left: 70px;
+}
+    
+
+
+
+
+/* Home Page Desktop */
+
+@media only screen and (min-width: 500px){
+  
+#hbody {
+    background: url(../img/bigsky.svg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    }
+    
+#ground {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    left: 0px;
+    height: 15%;
+    }
+    
+#hlogo {
+    height: 30%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#hplay{
+   height: 10%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+/*#hlogin{
+    height: 10%;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}*/
+
+#hrank{
+    height: 10%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+#hquest{
+    width: 50px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+#hset{
+     width: 50px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+#htiger{
+    width: 20%;
+    position: fixed;
+    bottom: 10px;
+    right: 2%;
+}
+
+#hrhino{
+    width: 10%;
+    position: fixed;
+    bottom: 90px;
+    left: 3%;
+}
+
+#happle {
+    width: 5%;
+    position: fixed;
+    bottom: 80px;
+    left: 12%;
+}   
+}
+    
+
+
+
+
+
+/* Login Mobile */
+#lbody {
+    background: url(../img/skybg.svg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    }
+    
+#lground {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 100px;
+    left: 0px;
+    }
+
+#lok{
+    width: 30%;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#lback{
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.input {
+    bottom: 70%;
+    left: 15%;
+    position: absolute;
+    width: 70%;
+    height: 12%;
+    
+    background-repeat: no-repeat;
+    font-size: 14pt;
+    color: dimgray;
+    
+    font-family: "Montserrat-Medium";
+    text-align: center;
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+}
+
+#lanimals{
+    top: 35%;
+    left: 10%;
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    
+    font-family: "Montserrat-Medium";
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    color: dimgray;
+    font-size: 14pt;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#lanim {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 32%;
+    left: 35%;
+}
+
+
+#ldiv{
+    display: none;
+     bottom: 70%;
+    left: 15%;
+    position: absolute;
+    width: 70%;
+    height: 12%;
+    
+    
+    background-repeat: no-repeat;
+    font-size: 14pt;
+    color: dimgray;
+    
+    font-family: "Montserrat-Medium";
+    text-align: center;
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+}
+
+#newuser {
+     width: 100px;
+    position: absolute;
+    top: 5px;
+    left: 5px;   
+
+}
+    .animpic {
+        width: 30%;
+        height: 40%;
+        margin: 2px;
+    }
+    #animpicbox {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 37%;
+        margin: auto;
+    }
+    #picanim {
+        bottom: 60%;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        position: absolute;
+        width: 300px;
+        height: 30px;
+
+        font-family: "Montserrat-Medium";
+        background-color: transparent;
+        border: none;
+        background-size: cover;
+        color: dimgray;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+/* Login Desktop */
+
+@media only screen and (min-width: 500px){
+  
+#hbody {
+     background: url(../img/skybg.svg) no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+    }
+    
+    
+#ground {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    left: 0px;
+    height: 15%;
+    }
+    
+#lok{
+    height: 10%;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+#lback{
+    width: 125px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.input {
+    bottom: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 300px;
+    
+    font-family: "Montserrat-Medium";
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    color: dimgray;
+    font-size: 20pt;
+    text-align: center;
+    display: inline-block;
+}
+
+#lanimals{
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    
+    font-family: "Montserrat-Medium";
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    color: dimgray;
+    font-size: 20pt;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#lanim {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 32%;
+    left: 35%;
+}
+
+
+#ldiv{
+   bottom: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 300px;
+    
+    font-family: "Montserrat-Medium";
+    background-image: url(../img/nameinput.svg);
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    color: dimgray;
+    font-size: 20pt;
+    text-align: center;
+    display: none;
+}
+
+#newuser {
+    width: 125px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+    .animpic {
+        width: 80px;
+        height: 100px;
+    }
+    #animpicbox {
+        width: 550px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 42%;
+        margin: auto;
+    }
+    #picanim {
+        bottom: 58%;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        position: absolute;
+        width: 400px;
+        height: 30px;
+
+        font-family: "Montserrat-Medium";
+        background-color: transparent;
+        border: none;
+        background-size: cover;
+        color: dimgray;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+body {
+    background: url(/img/bg-2.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    
+}
+
+
+/* Level 1 Mobile */
+=======
+
+
+>>>>>>> origin/master
+
+
+
+
+.falling{
+    display: block;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 90px;
+}
+
+
+#bottoanimalsmarea {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-height: 25%;
+}
+
+#animalheads {
+    position: relative;
+    height: 100px;
+    bottom: 20px;
+}
+
+<<<<<<< HEAD
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+=======
+#sok{
+    width: 300px;
+    position: absolute;
+    top: 950px;
+    right: 50px;
+}
+#scancel {
+    width: 300px;
+    position: absolute;
+    top: 950px;
+    left: 50px; 
+>>>>>>> origin/master
+}
+
+#lefttopwood{
+    position: fixed;
+    left: 0;
+    height: 13.2vh;
+    z-index: 2;
+}
+
+#middletopwood{
+/*
+    position: fixed;
+    background: url(/img/middle-topwood.svg) repeat-x left top; 
+    background-size: 0.5em, 0.5em;
+*/
+    
+    position: fixed;
+    height: 10vh;
+    width: 95vw;
+    left: 5px;
+    right: 2px;
+    top: 0;
+    
+}
+
+#righttopwood{
+    position: fixed;
+    right: 0;
+    height: 22vh;
+}
+
+#gameplaysettings{
+    position: fixed;
+    top: 2vh;
+    right: 3vw;
+    z-index: 2;
+}
+
+
+<<<<<<< HEAD
+#score {
+=======
+
+    
+    
+    
+  
+
+
+
+
+
+
+
+/* Level 1 Mobile */
+
+.background1 {
+    width: 40vw;
+    height: auto;
+>>>>>>> origin/master
+    position: fixed;
+    left: 0;
+    z-index: 3;
+}
+
+
+
+@media (max-width: 700px) {
+    body {
+        background: url(/img/bg-3.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    }
+
+}
+
+

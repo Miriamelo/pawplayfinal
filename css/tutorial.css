@@ -1,0 +1,553 @@
+
+#tbody {
+        background: url("../img/bigsky.svg") no-repeat center center fixed; 
+        background-size: cover; 
+    }
+
+#bgblur {
+    opacity: 0.5;
+}
+
+#tground {
+        position: fixed;
+        bottom: 0px;
+        width: 100vw;
+        left: 0px;
+        height: 15%;
+    }
+    
+#tlefttopwood{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 13.2vh;
+        z-index: 2;
+    }
+        
+#tmiddletopwood{
+        position: fixed;
+        height: 10vh;
+        width: 95vw;
+        left: 5px;
+        right: 2px;
+        top: 0;
+    }
+
+#trighttopwood{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 22vh;
+    }
+
+#tgameplaysettings{
+        position: fixed;
+        top: 2vh;
+        right: 3vw;
+        z-index: 2;
+    }
+        
+#tscore {
+        position: fixed;
+        top: 0.5%;
+        left: .5%;
+        color: #fff;
+        width: 80px;;
+        z-index: 10;
+    }  
+        
+#tscorebg {
+        position: absolute;
+        z-index: 2;
+    }
+        
+#tscorering {
+        position: relative;
+        z-index: -1;
+    }
+        
+#ttextscore {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        top: 20%;
+        color: #893f09;
+        font-size: 0.8em;
+        z-index: 11;
+    }
+        
+#ttestscore{
+        top: -22%;
+        position: relative;
+        z-index: 11;
+        font-size: 1.5em;
+    }
+
+#tapple1 {
+        position: absolute;
+        height: 15%;
+        bottom: 20%;
+        left: 7%;
+    }
+#tapple2 {
+        position: absolute;
+        height: 15%;
+        bottom: 32%;
+        left: 63%;
+}
+#tapple3 {
+        position: absolute;
+        height: 15%;
+        bottom: 47%;
+        left: 86%;
+}
+#tapple4 {
+        position: absolute;
+        height: 15%;
+        bottom: 75%;
+        left: 25%;
+}
+#tdeer1 {
+        position: absolute;
+        height: 15%;
+        bottom: 65%;
+        left: 15%;
+}
+#tdeer2 {
+        position: absolute;
+        height: 15%;
+        bottom: 15%;
+        left: 35%;
+}
+#tdeer3 {
+        position: absolute;
+        height: 15%;
+        bottom: 55%;
+        left: 80%;
+}
+#ttiger1 {
+        position: fixed;
+        height: 20%;
+        bottom: 2%;
+        left: 2%;
+}
+
+#ttut1{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+}
+
+#tutnext1{
+    height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+}
+
+#ttut2{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    z-index: 1;
+}
+
+#tutnext2{
+    height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+#ttut3{
+   height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#tutnext3{
+    height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+#ttut4{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#tutnext4{
+    height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+    
+#ttut5{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#tutnext5{
+    height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}       
+
+#ttut6{
+   height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#tutnext6{
+     height: 8%;
+     left: 35%;
+    bottom: 6%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}   
+  
+#tskip{
+    height: 8%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 500px) {
+#tbody {
+        background: url("../img/bigsky.svg") no-repeat center center fixed; 
+        background-size: cover;    
+    }
+
+#bgblur {
+    opacity: 0.5;
+}
+
+#tground {
+        position: fixed;
+        bottom: 0px;
+        width: 100vw;
+        left: 0px;
+        height: 15%;
+    }
+    
+#tlefttopwood{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 13.2vh;
+        z-index: 2;
+    }
+        
+#tmiddletopwood{
+        position: fixed;
+        height: 10vh;
+        width: 95vw;
+        left: 5px;
+        right: 2px;
+        top: 0;
+    }
+
+#trighttopwood{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 22vh;
+    }
+
+#tgameplaysettings{
+        position: fixed;
+        top: 2vh;
+        right: 3vw;
+        z-index: 2;
+    }
+        
+#tscore {
+        position: fixed;
+        top: 0.5%;
+        left: .5%;
+        color: #fff;
+        width: 80px;;
+        z-index: 10;
+    }  
+        
+#tscorebg {
+        position: absolute;
+        z-index: 2;
+    }
+        
+#tscorering {
+        position: relative;
+        z-index: -1;
+    }
+        
+#ttextscore {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        top: 20%;
+        color: #893f09;
+        font-size: 0.8em;
+        z-index: 11;
+    }
+        
+#ttestscore{
+        top: -22%;
+        position: relative;
+        z-index: 11;
+        font-size: 1.5em;
+    }
+
+#tapple1 {
+        position: absolute;
+        height: 15%;
+        bottom: 20%;
+        left: 7%;
+    }
+#tapple2 {
+        position: absolute;
+        height: 15%;
+        bottom: 32%;
+        left: 63%;
+}
+#tapple3 {
+        position: absolute;
+        height: 15%;
+        bottom: 47%;
+        left: 86%;
+}
+#tapple4 {
+        position: absolute;
+        height: 15%;
+        bottom: 75%;
+        left: 25%;
+}
+#tdeer1 {
+        position: absolute;
+        height: 15%;
+        bottom: 65%;
+        left: 15%;
+}
+#tdeer2 {
+        position: absolute;
+        height: 15%;
+        bottom: 15%;
+        left: 35%;
+}
+#tdeer3 {
+        position: absolute;
+        height: 15%;
+        bottom: 55%;
+        left: 80%;
+}
+#ttiger1 {
+        position: fixed;
+        height: 20%;
+        bottom: 2%;
+        left: 2%;
+}
+
+#ttut1{
+    height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+}
+
+#tutnext1{
+    height: 10%;
+     left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: inline-block;
+}
+
+#ttut2{
+     height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+#tutnext2{
+    height: 10%;
+     left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: none;
+}
+
+#ttut3{
+     height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+
+#tutnext3{
+    height: 10%;
+       left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: none;
+}
+
+#ttut4{
+     height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+
+#tutnext4{
+    height: 10%;
+      left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: none;
+}
+    
+#ttut5{
+     height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+
+#tutnext5{
+    height: 10%;
+      left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: none;
+}       
+
+#ttut6{
+     height: 65%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+
+#tutnext6{
+    height: 10%;
+      left: 45%;
+    bottom: 12%;
+    position: absolute;
+    display: none;
+}   
+  
+    
+#tskip{
+    height: 8%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+};
+
+
+
+/* mobile */

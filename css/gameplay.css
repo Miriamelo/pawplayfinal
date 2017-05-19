@@ -1,0 +1,121 @@
+
+body {
+/*
+    background: url(/img/bg-2.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+*/
+    
+}
+
+canvas {
+    background-color: #eee;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#foodElements {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+
+/* Level 1 Mobile */
+
+
+
+
+.falling{
+    display: block;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 90px;
+}
+
+
+#bottoanimalsmarea {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-height: 25%;
+}
+
+#animalheads {
+    position: relative;
+    height: 100px;
+    bottom: 20px;
+}
+
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+#lefttopwood{
+    position: fixed;
+    left: 0;
+    height: 13.2vh;
+    z-index: 2;
+}
+
+#middletopwood{
+/*
+    position: fixed;
+    background: url(/img/middle-topwood.svg) repeat-x left top; 
+    background-size: 0.5em, 0.5em;
+*/
+    
+    position: fixed;
+    height: 10vh;
+    width: 95vw;
+    left: 5px;
+    right: 2px;
+    top: 0;
+    
+}
+
+#righttopwood{
+    position: fixed;
+    right: 0;
+    height: 22vh;
+}
+
+#gameplaysettings{
+    position: fixed;
+    top: 2vh;
+    right: 3vw;
+    z-index: 2;
+}
+
+
+#score {
+    position: fixed;
+    left: 0;
+    z-index: 3;
+}
+
+
+
+@media (max-width: 700px) {
+    body {
+        background: url(/img/bg-3.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    }
+
+}
+
+
