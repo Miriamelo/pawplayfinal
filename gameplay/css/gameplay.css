@@ -319,10 +319,12 @@ body {
 }
 
 @media (max-width: 700px) {
+/*
   body {
-    background: url("./img/bg-3.svg")
-    background-size: contain;
+    background: url(../img/bg-3.svg);
+    background-size: cover;
   }
+*/
 
   #bottombg2 {
     position: absolute;
@@ -416,3 +418,14 @@ body {
   .controller {
     display: block
   }
+    
+#middletopwood{
+  position: fixed;
+  height: 10vh;
+  width: 95vw;
+  left: 5px;
+  right: 2px;
+  top: 0;
+}
+    
+}
