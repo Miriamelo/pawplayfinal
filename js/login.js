@@ -1,3 +1,4 @@
+ 
     var lback = document.getElementById("lback");
         lback.src = "img/back.svg";
 
@@ -17,6 +18,8 @@
 
     var lcancel = document.getElementById("lcancel");
 
+
+//ok buttons saves the first name into local storage
     var lok = document.getElementById("lok");
 
             lok.addEventListener("click", function(){
@@ -40,18 +43,20 @@
 var animal = localStorage.animal;
 
 
+//saves chosen aniaml into local storage 
 if(localStorage.animal != undefined){
     document.getElementById("nimg");
     nimg.src = localStorage.animal;
     console.log(nimg);
 }
 
+//if there is no animal selected choose the tiger
 else{
    localStorage.animal= "choosetiger.svg";
     console.log(localStorage.animal);
 }
 
-
+//when new user is clicked, clear local storage 
     var newuser = document.getElementById("newuser");
             newuser.addEventListener("click", function(){
                     console.log("cancel");
@@ -75,7 +80,7 @@ else{
 
 var lcurclick = "";
 
-
+//when tiger is clicked store it into the local storage
 var ltiger = document.getElementById("tiger");
     ltiger.addEventListener("click", function(){
        lcurclick = ltiger;
@@ -93,6 +98,7 @@ var ltiger = document.getElementById("tiger");
         
     });
 
+//when rhino is clicked store it into the local storage
 var lrhino = document.getElementById("rhino");
     lrhino.addEventListener("click", function(){
        lcurclick = lrhino;
@@ -126,6 +132,8 @@ var lbear = document.getElementById("bear");
         
     });
 
+
+//when butterfly is clicked store it into the local storage
 var lbutter = document.getElementById("butterfly");
     lbutter.addEventListener("click", function(){
        lcurclick = lbutter;
@@ -141,6 +149,8 @@ var lbutter = document.getElementById("butterfly");
         localStorage.animal = nimg.src;
     });
 
+
+//when whale is clicked store it into the local storage
 var lwhale = document.getElementById("whale");
      lwhale.addEventListener("click", function(){
        lcurclick = lwhale;
@@ -156,6 +166,8 @@ var lwhale = document.getElementById("whale");
          localStorage.animal = nimg.src;
     });
 
+
+//when panda is clicked store it into the local storage
 var lpanda = document.getElementById("panda");
     lpanda.addEventListener("click", function(){
        lcurclick = lpanda;
@@ -170,16 +182,4 @@ var lpanda = document.getElementById("panda");
         nimg.src = lpanda.src;
         localStorage.animal = nimg.src;
     });
-
-
-
-
-
-
-
-
-
-
-
-
 

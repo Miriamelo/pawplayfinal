@@ -8,26 +8,14 @@ var score = 0;
 
 var scoreText;
 
-
 //score
 
-
-
 //animals controls
-function animalss () {
-    
-    
+function animalss () { 
    var aniobj = {
        left: 0
    }
 };
-
-
-//function backgroundChange() {
-//     document.body.style.backgroundImage = "url(/img/bg-2.svg)";
-//}
-
-
 
 //falling food
 
@@ -43,8 +31,7 @@ setInterval(function () {
     document.body.appendChild(ndiv);
     
     ndiv.style.left = Math.round(Math.random()*window.innerWidth)+"px";
-    
-    
+       
     var appleobj = {
         theDiv: ndiv,
         top: 0,
@@ -67,7 +54,6 @@ setInterval( function (){
     }
    
 }, 6000/60);
-
 
 
 //deer

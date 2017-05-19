@@ -1,5 +1,6 @@
 
-    console.log("under 500");
+//mobile size
+            console.log("under 500");
             var tutnext1 = document.getElementById("tutnext1");
             var tutnext2 = document.getElementById("tutnext2");
             var tutnext3 = document.getElementById("tutnext3");
@@ -7,7 +8,7 @@
             var tutnext5 = document.getElementById("tutnext5");
             var tutnext6 = document.getElementById("tutnext6");
 
-
+//tutorial slides mobile
             var ttut1 = document.getElementById("ttut1");
                     ttut1.src = "./img/FinalTutorial1Mobile.svg";
             var ttut2 = document.getElementById("ttut2");
@@ -22,7 +23,7 @@
                     ttut6.src = "./img/FinalTutorial6Mobile.svg";
 
            
-
+//next buttons for each tutorial slide leads to the next tutorial slide
             tutnext1.addEventListener("click", function(){
                 ttut2.style.display= "inline-block";
                 ttut1.style.display= "none";
@@ -60,6 +61,8 @@
 
 
 
+
+//desktop size
 var mq = window.matchMedia( "(min-width: 500px)" );
 
 
@@ -72,7 +75,7 @@ if (mq.matches) {
             var tutnext5 = document.getElementById("tutnext5");
             var tutnext6 = document.getElementById("tutnext6");
 
-
+//tutorial pages for desktop
             var ttut1 = document.getElementById("ttut1");
                     ttut1.src = "./img/FinalTutorial1.svg";
             var ttut2 = document.getElementById("ttut2");
@@ -87,7 +90,7 @@ if (mq.matches) {
                     ttut6.src = "./img/FinalTutorial6.svg";
 
         
-
+//next buttons for desktop
             tutnext1.addEventListener("click", function(){
                 ttut2.style.display= "inline-block";
                 ttut1.style.display= "none";
