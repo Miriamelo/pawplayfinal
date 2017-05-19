@@ -318,6 +318,10 @@ body {
   100% { opacity:0; }
 }
 
+#middletopwoodmob{
+  display: none;
+}
+
 @media (max-width: 700px) {
 /*
   body {
@@ -422,10 +426,17 @@ body {
 #middletopwood{
   position: fixed;
   height: 10vh;
+  display: none;
+}
+    
+#middletopwoodmob{
+  position: fixed;
+  height: 9.9vh;
   width: 95vw;
   left: 5px;
   right: 2px;
   top: 0;
+  display: block !important;
 }
     
 }
