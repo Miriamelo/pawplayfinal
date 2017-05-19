@@ -23,9 +23,9 @@
     
 #hground {
     position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    left: 0px;
+  bottom: 0px;
+  z-index: -2;
+  width: 100vw;
     }
     
 #hlogo {
@@ -199,11 +199,11 @@
     }
     
 #lground {
-    position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    height: 100px;
-    left: 0px;
+     position: fixed;
+  bottom: 0px;
+  z-index: -2;
+  width: 100vw;
+  width: 100vw;
     }
 
 #lok{
