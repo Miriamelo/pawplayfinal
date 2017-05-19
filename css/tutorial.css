@@ -9,12 +9,13 @@
 }
 
 #tground {
-        position: fixed;
-        bottom: 0px;
-        width: 100vw;
-        left: 0px;
-        height: 15%;
+    position: fixed;
+    bottom: 0px;
+    z-index: -2;
+    width: 110vw;
+    left: -5px;
     }
+
     
 #tlefttopwood{
         position: fixed;
@@ -290,11 +291,11 @@
 }
 
 #tground {
-        position: fixed;
-        bottom: 0px;
-        width: 100vw;
-        left: 0px;
-        height: 15%;
+         position: fixed;
+    bottom: 0px;
+    z-index: -2;
+    width: 110vw;
+    left: -5px;
     }
     
 #tlefttopwood{
