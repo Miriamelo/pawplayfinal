@@ -35,3 +35,6 @@ var happle = document.getElementById("happle");
 var hbody = document.getElementById("hbody");
 
 
+hquest.addEventListener("click", function(){
+     localStorage.animal= "./img/choosetiger.svg";  
+});

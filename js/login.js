@@ -3,9 +3,7 @@
         lback.src = "img/back.svg";
 
     var lok = document.getElementById("lok");
-        lok.src = "img/ok.svg";
-
-    localStorage.animal= "./img/choosetiger.svg";    
+        lok.src = "img/ok.svg";  
 
     var lbody = document.getElementById("lbody");
 
