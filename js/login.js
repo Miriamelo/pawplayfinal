@@ -5,7 +5,8 @@
     var lok = document.getElementById("lok");
         lok.src = "img/ok.svg";
 
-    
+    localStorage.animal= "./img/choosetiger.svg";    
+
     var lbody = document.getElementById("lbody");
 
     var lground = document.getElementById("lground");
