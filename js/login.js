@@ -29,9 +29,10 @@
                 if(localStorage.firstName == undefined){
                     localStorage.firstName = luninput.value;
                     }
-                      
+                       
 
-                if(localStorage.firstName != undefined){                    document.getElementById("ldiv");
+                if(localStorage.firstName != undefined){                 
+                    document.getElementById("ldiv");
                     ldiv.innerHTML= "<br>Hello again " +localStorage.firstName;
                                                         
                     console.log(localStorage.firstName);                                 
@@ -40,24 +41,24 @@
                     console.log("ok");
                 }
 
-var animal = localStorage.animal;
+                var animal = localStorage.animal;
 
 
-//saves chosen aniaml into local storage 
-if(localStorage.animal != undefined){
-    document.getElementById("nimg");
-    nimg.src = localStorage.animal;
-    console.log(nimg);
-}
+                //saves chosen aniaml into local storage 
+                if(localStorage.animal != undefined){
+                    document.getElementById("nimg");
+                    nimg.src = localStorage.animal;
+                    console.log(nimg);
+                }
 
-//if there is no animal selected choose the tiger
-else{
-   localStorage.animal= "./img/choosetiger.svg";
-    console.log(localStorage.animal);
-}
+                //if there is no animal selected choose the tiger
+                else{
+                   localStorage.animal= "./img/choosetiger.svg";
+                    console.log(localStorage.animal);
+                }
 
-}); 
-                
+        });
+
 //when new user is clicked, clear local storage 
     var newuser = document.getElementById("newuser");
             newuser.addEventListener("click", function(){
