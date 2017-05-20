@@ -297,6 +297,7 @@ position: fixed;
     position: absolute;
     top: 5px;
     left: 5px;   
+    cursor: pointer;
 
 }
     .animpic {
@@ -367,6 +368,7 @@ position: fixed;
     right: 0;
     bottom: 0;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 #lback{
@@ -374,6 +376,7 @@ position: fixed;
     position: absolute;
     top: 5px;
     right: 5px;
+    cursor: pointer;
 }
 
 .input {
@@ -455,6 +458,7 @@ position: fixed;
     .animpic {
         width: 80px;
         height: 100px;
+        cursor: pointer;
     }
     #animpicbox {
         width: 550px;
@@ -485,6 +489,78 @@ position: fixed;
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+body {
+    background: url(/img/bg-2.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    
+}
+
+
+/* Level 1 Mobile */
+=======
+
+
+>>>>>>> origin/master
+
+
+
+
 .falling{
     display: block;
     height: 80px;
@@ -506,4 +582,102 @@ position: fixed;
     height: 100px;
     bottom: 20px;
 }
+
+<<<<<<< HEAD
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+=======
+#sok{
+    width: 300px;
+    position: absolute;
+    top: 950px;
+    right: 50px;
+}
+#scancel {
+    width: 300px;
+    position: absolute;
+    top: 950px;
+    left: 50px; 
+>>>>>>> origin/master
+}
+
+#lefttopwood{
+    position: fixed;
+    left: 0;
+    height: 13.2vh;
+    z-index: 2;
+}
+
+#middletopwood{
+/*
+    position: fixed;
+    background: url(/img/middle-topwood.svg) repeat-x left top; 
+    background-size: 0.5em, 0.5em;
+*/
+    
+    position: fixed;
+    height: 10vh;
+    width: 95vw;
+    left: 5px;
+    right: 2px;
+    top: 0;
+    
+}
+
+#righttopwood{
+    position: fixed;
+    right: 0;
+    height: 22vh;
+}
+
+#gameplaysettings{
+    position: fixed;
+    top: 2vh;
+    right: 3vw;
+    z-index: 2;
+}
+
+
+<<<<<<< HEAD
+#score {
+=======
+
+    
+    
+    
+  
+
+
+
+
+
+
+
+/* Level 1 Mobile */
+
+.background1 {
+    width: 40vw;
+    height: auto;
+>>>>>>> origin/master
+    position: fixed;
+    left: 0;
+    z-index: 3;
+}
+
+
+
+@media (max-width: 700px) {
+    body {
+        background: url(/img/bg-3.svg) no-repeat center center fixed; 
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    }
+
+}
+
 
