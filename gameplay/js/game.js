@@ -1,10 +1,5 @@
-//if(localStorage.animal != undefined){
-//  var playerimg = document.getElementById("playerimg");
-      playerimg.src = localStorage.animal;
-//  console.log(localStorage.animal);
-//}else{
-//  localStorage.animal= "img/choosetiger.svg";
-//}
+playerimg.src = localStorage.animal;
+
 
 function FallItem(){
   let r = Math.floor(Math.random() * (imgs.length));
