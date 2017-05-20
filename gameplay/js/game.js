@@ -3,7 +3,7 @@ if(localStorage.animal != undefined){
       playerimg.src = localStorage.animal;
   console.log(localStorage.animal);
 }else{
-  localStorage.animal= "choosetiger.svg";
+  localStorage.animal= "img/choosetiger.svg";
 }
 
 function FallItem(){
