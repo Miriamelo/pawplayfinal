@@ -29,7 +29,7 @@
                 if(localStorage.firstName == undefined){
                     localStorage.firstName = luninput.value;
                     }
-                    });   
+                      
 
                 if(localStorage.firstName != undefined){                    document.getElementById("ldiv");
                     ldiv.innerHTML= "<br>Hello again " +localStorage.firstName;
@@ -52,10 +52,12 @@ if(localStorage.animal != undefined){
 
 //if there is no animal selected choose the tiger
 else{
-   localStorage.animal= "choosetiger.svg";
+   localStorage.animal= "./img/choosetiger.svg";
     console.log(localStorage.animal);
 }
 
+}); 
+                
 //when new user is clicked, clear local storage 
     var newuser = document.getElementById("newuser");
             newuser.addEventListener("click", function(){
